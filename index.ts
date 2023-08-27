@@ -1,5 +1,7 @@
-function sum(a: number, b: number): number {
-  return a + b;
+type Pe = { name: string };
+
+function printPerson(person: Pe) {
+  console.log(person);
 }
 
-console.log(sum(10, 20));
+printPerson({ name: "Mark" });

@@ -10,5 +10,11 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.17",
+    "axios": "^1.5.0",
+    "datatables": "^1.10.18",
+    "jquery": "^3.7.0"
   }
 }
